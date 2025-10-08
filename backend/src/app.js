@@ -1,3 +1,5 @@
+require('dotenv').config(); // <-- must be first
+require('./firebase');
 const express = require('express');
 const cors = require('cors');
 const multer = require('multer');

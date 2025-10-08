@@ -1,3 +1,4 @@
+require('dotenv').config();
 const admin = require('firebase-admin');
 
 const serviceAccount = {
@@ -9,4 +10,5 @@ const serviceAccount = {
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
 });
+
 module.exports = admin;
