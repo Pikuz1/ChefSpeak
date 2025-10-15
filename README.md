@@ -1,13 +1,13 @@
 # ChefSpeak
-Voice controlled cooking assistant
+Voice controlled cooking assistant plugin
 
 # TO DO:
-- Press-to-talk voice activation
+- Add recipes through simple plugin setup
 
-- Transcription → intent parsing (next/prev/start timer/save/share)
+- AI assistance for reader
 
-- Step-by-step recipe UI
+- Step-by-step recipe guide
 
-- Local timers + local notifications
+- Local timers + local notifications of reminders
 
 - Save/share to Firestore
