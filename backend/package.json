@@ -1,8 +1,9 @@
 {
   "name": "chefspeak-backend",
   "version": "1.0.0",
-  "main": "src/app.js",
+  "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
@@ -13,6 +14,10 @@
     "node-fetch": "^2.6.7"
   },
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
